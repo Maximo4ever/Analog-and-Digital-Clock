@@ -13,9 +13,15 @@
 <body>
   <main class="container">
     <div class="clock">
-      <div class="circle" style="--crl: #04fc42"><i></i></div>
-      <div class="circle circle--2" style="--crl: #fee800"><i></i></div>
-      <div class="circle circle--3" style="--crl: #ff2772"><i></i></div>
+      <div class="circle" style="--crl: #04fc42" id="seconds">
+        <i></i>
+      </div>
+      <div class="circle circle--2" style="--crl: #fee800" id="minutes">
+        <i></i>
+      </div>
+      <div class="circle circle--3" style="--crl: #ff2772" id="hours">
+        <i></i>
+      </div>
       <span style="--i:1;"><b>1</b></span>
       <span style="--i:2;"><b>2</b></span>
       <span style="--i:3;"><b>3</b></span>
@@ -30,5 +36,7 @@
       <span style="--i:12;"><b>12</b></span>
     </div>
   </main>
+
+  <script src="./app.js"></script>
 </body>
 </html>
